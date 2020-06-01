@@ -2,14 +2,14 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
-import pickle
+
+#import pickle
 
 #Lecture du dataset
-dataset = pd.read_csv('ventes.csv')
+dataset = pd.read_csv('ventes.csv', sep=';')
 
+#Au cas ou il y as des valeurs vides dans la première colonne on la nettoie
 dataset['niveau'].fillna(0, inplace=True)
-
-dataset['ventes_trim1'].fillna(dataset['ventes_trim1'].mean(), inplace=True)
 
 X = dataset.iloc[:, :3]
 
