@@ -40,4 +40,6 @@ _______________
 eyJoaXN0b3J5IjpbLTE0MzMzMzk3MDZdfQ==
 -->
 =======
->>>>>>> 343c528e00aebc33e0c62e8ce03fcda4bbab3294
+### Notre projet
+
+- Création d'un modèle de regression linéaire en entrant des valeurs depuis une page WEB relié à une API Flask qui nous renvoie la prédiction
